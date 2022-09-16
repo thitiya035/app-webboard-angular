@@ -1,0 +1,9 @@
+<h1>Login User</h1>
+<form [formGroup]="userForm">
+  Username
+  <input type="text" formControlName="username" />
+</form>
+
+<div class="btn">
+  <button type="button" (click)="login()">Login</button>
+</div>
